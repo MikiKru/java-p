@@ -16,5 +16,6 @@ public class Jp6 {
         System.out.println(var1*2 > var2);
         System.out.println(var2 > var1 + 3 && var2 > var1 - 2);
         System.out.println((var1 * var2) % 2 == 0);
+
     }
 }

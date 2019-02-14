@@ -28,10 +28,10 @@ public class Hello {
         System.out.println(sign9);
         System.out.println(signTab);
         System.out.println(signSpace);
-        
+
         boolean flag = true;
         boolean isLunch = false;
-        System.out.println(true);
+        System.out.println(flag);
         System.out.println("isLunch = " + isLunch);
         
         

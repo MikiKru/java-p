@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a4039b7-a29c-4003-81e0-0145f9270865" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/start/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/start/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/start/Operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/start/Operators.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,38 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/start/Hello.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/start/Variables.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/start/Operators.java">
+        <entry file="file://$PROJECT_DIR$/src/jp2/Jp2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jp1/Jp1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+            <state relative-caret-position="440">
+              <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -68,6 +41,7 @@
         <option value="$PROJECT_DIR$/src/start/Hello.java" />
         <option value="$PROJECT_DIR$/src/start/Variables.java" />
         <option value="$PROJECT_DIR$/src/start/Operators.java" />
+        <option value="$PROJECT_DIR$/src/jp2/Jp2.java" />
       </list>
     </option>
   </component>
@@ -101,7 +75,7 @@
               <item name="JavaPodstawy" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaPodstawy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jp1" type="462c0819:PsiDirectoryNode" />
+              <item name="jp2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaPodstawy" type="b2602c69:ProjectViewProjectNode" />
@@ -118,7 +92,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550143501706" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550145058055" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -134,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Variables">
+  <component name="RunManager" selected="Application.Jp2">
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="start.Hello" />
       <module name="JavaPodstawy" />
@@ -161,6 +135,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Jp2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jp2.Jp2" />
+      <module name="JavaPodstawy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jp2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Operators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="start.Operators" />
+      <module name="JavaPodstawy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Variables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="start.Variables" />
       <module name="JavaPodstawy" />
@@ -176,6 +176,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Jp2" />
+        <item itemvalue="Application.Operators" />
         <item itemvalue="Application.Variables" />
         <item itemvalue="Application.Jp1" />
         <item itemvalue="Application.Hello" />
@@ -192,12 +194,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550133336011</updated>
-      <workItem from="1550133339402" duration="8340000" />
+      <workItem from="1550133339402" duration="9919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8340000" />
+    <option name="totallyTimeSpent" value="9919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="0" />
@@ -208,7 +210,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15838926" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15838926" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.3297587" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -218,7 +220,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3069705" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2077748" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -239,17 +241,17 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.37315437" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.15838926" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="5" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.13270777" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.21983914" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -269,13 +271,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/jp1/Jp1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/start/Hello.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -292,8 +287,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/start/Operators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="375">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jp1/Jp1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jp2/Jp2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
         </state>
       </provider>
     </entry>

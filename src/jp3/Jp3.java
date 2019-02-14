@@ -22,5 +22,6 @@ public class Jp3 {
         // P7
         System.out.println("VAR1 substr: " + var4.substring(0,4));
         System.out.println("VAR2 substr: " + var4.substring(4,8));
+
     }
 }

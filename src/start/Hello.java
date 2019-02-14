@@ -6,6 +6,7 @@ package start;
 // CTRL + SHIFT + F10 - run
 // CTRL + / - comment
 // CTRL + D - duplicate
+// CTRL + ALT + L - auto-format
 public class Hello {
     public static void main(String[] args) {
         System.out.println("Hello World!");

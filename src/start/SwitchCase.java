@@ -24,5 +24,6 @@ public class SwitchCase {
             default:
                 System.out.println("Błędny wybór!");
         }
+        System.out.println("END");
     }
 }

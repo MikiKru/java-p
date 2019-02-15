@@ -1,12 +1,19 @@
 package jp8;
 
+import java.util.Scanner;
+
 import static java.lang.Math.sqrt;
 import static java.lang.StrictMath.pow;
 
 public class Jp8 {
     public static void main(String[] args) {
-        int a = 5;
-        int b = 4;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Podaj wartośc zmiennej a: ");
+        int a = scanner.nextInt();
+        System.out.println("Podaj wartośc zmiennej b: ");
+        int b = scanner.nextInt();
+        scanner.close();
+
         // P1
         System.out.println(0.5*a*(a*sqrt(3)/2));
         // P2

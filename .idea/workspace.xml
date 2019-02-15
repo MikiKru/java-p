@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a4039b7-a29c-4003-81e0-0145f9270865" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/start/Loop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/start/Loop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +40,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pt1/Pt1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
+            <state relative-caret-position="128">
               <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pt2/Pt2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -104,6 +113,7 @@
         <option value="$PROJECT_DIR$/src/start/TableExample.java" />
         <option value="$PROJECT_DIR$/src/start/Loop.java" />
         <option value="$PROJECT_DIR$/src/pt1/Pt1.java" />
+        <option value="$PROJECT_DIR$/src/pt2/Pt2.java" />
       </list>
     </option>
   </component>
@@ -148,7 +158,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550236303969" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550238009484" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -164,20 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Pt1">
-    <configuration name="Iw5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iw5.Iw5" />
-      <module name="JavaPodstawy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="iw5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Pt2">
     <configuration name="Loop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="start.Loop" />
       <module name="JavaPodstawy" />
@@ -217,6 +214,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Pt2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pt2.Pt2" />
+      <module name="JavaPodstawy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pt2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="start.TableExample" />
       <module name="JavaPodstawy" />
@@ -232,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pt2" />
         <item itemvalue="Application.Pt1" />
         <item itemvalue="Application.Loop" />
         <item itemvalue="Application.TableExample" />
         <item itemvalue="Application.MultiTab" />
-        <item itemvalue="Application.Iw5" />
       </list>
     </recent_temporary>
   </component>
@@ -251,18 +261,18 @@
       <option name="presentableId" value="Default" />
       <updated>1550133336011</updated>
       <workItem from="1550133339402" duration="20186000" />
-      <workItem from="1550218207842" duration="14291000" />
+      <workItem from="1550218207842" duration="15755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34477000" />
+    <option name="totallyTimeSpent" value="35941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11342282" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11342282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -271,7 +281,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.056300268" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43565685" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892906" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -486,8 +496,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pt1/Pt1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
+        <state relative-caret-position="128">
           <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt2/Pt2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
         </state>
       </provider>
     </entry>

@@ -36,7 +36,15 @@ public class Repetition {
             i++;
         }
         // oblicz wartośc maksymalną w tablicy
-        
+        int maxVal = numTab[0];
+        for (int element : numTab){
+//            if(element > maxVal){
+//                maxVal = element;
+//            }
+             maxVal = element > maxVal ? element : maxVal;
+        }
+        System.out.println("\nMAX VAL: " + maxVal);
+
         // oblicz średnią arytmetyczną wszystkich elementów tablicy
 
     }

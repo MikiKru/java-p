@@ -26,6 +26,18 @@ public class Repetition {
         for(int element : numTab){
             System.out.print(element + " ");
         }
+        // w pętli while wypisz tylko parzyste wartości z tablicy
+        System.out.print("\nElementy parzyste: ");
+        int i = 0;
+        while (i < numTab.length){
+            if((numTab[i] % 2 == 0) && numTab[i] != 0){
+                System.out.print(numTab[i] + " ");
+            }
+            i++;
+        }
+        // oblicz wartośc maksymalną w tablicy
+        
+        // oblicz średnią arytmetyczną wszystkich elementów tablicy
 
     }
 }

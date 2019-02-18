@@ -46,6 +46,10 @@ public class Repetition {
         System.out.println("\nMAX VAL: " + maxVal);
 
         // oblicz średnią arytmetyczną wszystkich elementów tablicy
-
+        int sum = 0;
+        for(int element : numTab){
+            sum = sum + element;
+        }
+        System.out.println("AVG: " + (double)sum/numTab.length);
     }
 }

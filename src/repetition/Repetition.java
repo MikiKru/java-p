@@ -17,9 +17,11 @@ public class Repetition {
         // deklaracja tablicy liczb całkowitych o wymatrze 10 elementów
         int numTab [] = new int[10];
         // użytkownik w pętli przypisał wartości do wszystkich komórek tablicy
+        // otwarcie skanera do wprowadzanie z konsoli do programu
         Scanner sc = new Scanner(System.in);
         for(int i = 0; i < numTab.length; i++){
             System.out.println("Podaj " + i + " element tablicy");
+            // wprowadzenie wartości całkowitej z konsoli do tablicy
             numTab[i] = sc.nextInt();
         }
         // wypisanie elementów tablicy
